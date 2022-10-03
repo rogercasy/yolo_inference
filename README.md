@@ -37,7 +37,7 @@ For specific software versions, see the [TensorRT Installation Guide](https://do
     python3 image_inference.py <path/to/onnx-file> <path/to/names> <path/to/image> <batch_size>
     ```
     For example:
-        ```sh
+    ```sh
     python3 image_inference.py yolov3_1_320.onnx signal.names train.jpg 1
     ```
 
@@ -47,7 +47,7 @@ For specific software versions, see the [TensorRT Installation Guide](https://do
     python3 image_inference.py <path/to/onnx-file> <path/to/names> <path/to/video> <batch_size> <show>
     ```
     For example:
-        ```sh
+    ```sh
     python3 video_inference.py yolov3_1_320.onnx signal.names 30_sec_Train_Simulator.mp4 1 show
     ```
 
